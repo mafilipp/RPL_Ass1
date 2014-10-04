@@ -1,0 +1,284 @@
+/*
+ * Class TABLE [NATURAL_16, INTEGER_32]
+ */
+
+#include "eif_macros.h"
+#include "eif_wbench.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+static void build_desc_737(void);
+static EIF_TYPE_INDEX gen_type0_737 [] = {0xFF11,257,0xFFFF};
+static EIF_TYPE_INDEX gen_type1_737 [] = {0xFF11,274,0xFF12,736,243,246,0xFFFF};
+static EIF_TYPE_INDEX gen_type2_737 [] = {0xFF11,736,243,246,0xFFFF};
+static EIF_TYPE_INDEX gen_type3_737 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type4_737 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type5_737 [] = {0xFF11,736,243,246,0xFFFF};
+static EIF_TYPE_INDEX gen_type6_737 [] = {0xFF11,736,243,246,0xFFFF};
+static EIF_TYPE_INDEX gen_type7_737 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type8_737 [] = {0xFF11,18,0xFFFF};
+static EIF_TYPE_INDEX gen_type9_737 [] = {0xFF11,257,0xFFFF};
+static EIF_TYPE_INDEX gen_type10_737 [] = {0xFF11,257,0xFFFF};
+static EIF_TYPE_INDEX gen_type11_737 [] = {0xFF11,38,0xFFFF};
+static EIF_TYPE_INDEX gen_type12_737 [] = {736,243,246,0xFFFF};
+static EIF_TYPE_INDEX gen_type13_737 [] = {0xFF11,736,243,246,0xFFFF};
+static EIF_TYPE_INDEX gen_type14_737 [] = {0xFF11,719,0xFFF8,1,0xFFFF};
+static EIF_TYPE_INDEX gen_type15_737 [] = {0xFFF8,1,0xFFFF};
+static EIF_TYPE_INDEX gen_type16_737 [] = {0xFFF8,1,0xFFFF};
+static EIF_TYPE_INDEX gen_type17_737 [] = {0xFFF8,1,0xFFFF};
+static EIF_TYPE_INDEX gen_type18_737 [] = {0xFFF8,2,0xFFFF};
+
+
+static struct desc_info desc_737[57];
+
+static void build_desc_737(void) {
+	desc_737[0].body_index = (BODY_INDEX) (-1);
+	desc_737[0].offset = (BODY_INDEX) (-1);
+	desc_737[0].type = INVALID_DTYPE;
+	desc_737[0].gen_type = NULL;
+	desc_737[1].body_index = (BODY_INDEX) (0);
+	desc_737[1].offset = (BODY_INDEX) (-1);
+	desc_737[1].type = (EIF_TYPE_INDEX) (257);
+	desc_737[1].gen_type =  gen_type0_737;
+	desc_737[2].body_index = (BODY_INDEX) (1);
+	desc_737[2].offset = (BODY_INDEX) (-1);
+	desc_737[2].type = (EIF_TYPE_INDEX) (274);
+	desc_737[2].gen_type =  gen_type1_737;
+	desc_737[3].body_index = (BODY_INDEX) (2);
+	desc_737[3].offset = (BODY_INDEX) (-1);
+	desc_737[3].type = (EIF_TYPE_INDEX) (225);
+	desc_737[3].gen_type = NULL;
+	desc_737[4].body_index = (BODY_INDEX) (3);
+	desc_737[4].offset = (BODY_INDEX) (-1);
+	desc_737[4].type = (EIF_TYPE_INDEX) (225);
+	desc_737[4].gen_type = NULL;
+	desc_737[5].body_index = (BODY_INDEX) (4);
+	desc_737[5].offset = (BODY_INDEX) (-1);
+	desc_737[5].type = (EIF_TYPE_INDEX) (225);
+	desc_737[5].gen_type = NULL;
+	desc_737[6].body_index = (BODY_INDEX) (5);
+	desc_737[6].offset = (BODY_INDEX) (-1);
+	desc_737[6].type = (EIF_TYPE_INDEX) (225);
+	desc_737[6].gen_type = NULL;
+	desc_737[7].body_index = (BODY_INDEX) (6);
+	desc_737[7].offset = (BODY_INDEX) (-1);
+	desc_737[7].type = (EIF_TYPE_INDEX) (225);
+	desc_737[7].gen_type = NULL;
+	desc_737[8].body_index = (BODY_INDEX) (7);
+	desc_737[8].offset = (BODY_INDEX) (-1);
+	desc_737[8].type = (EIF_TYPE_INDEX) (225);
+	desc_737[8].gen_type = NULL;
+	desc_737[9].body_index = (BODY_INDEX) (8);
+	desc_737[9].offset = (BODY_INDEX) (-1);
+	desc_737[9].type = (EIF_TYPE_INDEX) (225);
+	desc_737[9].gen_type = NULL;
+	desc_737[10].body_index = (BODY_INDEX) (9);
+	desc_737[10].offset = (BODY_INDEX) (-1);
+	desc_737[10].type = (EIF_TYPE_INDEX) (225);
+	desc_737[10].gen_type = NULL;
+	desc_737[11].body_index = (BODY_INDEX) (10);
+	desc_737[11].offset = (BODY_INDEX) (-1);
+	desc_737[11].type = (EIF_TYPE_INDEX) (736);
+	desc_737[11].gen_type =  gen_type2_737;
+	desc_737[12].body_index = (BODY_INDEX) (11);
+	desc_737[12].offset = (BODY_INDEX) (-1);
+	desc_737[12].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[12].gen_type = NULL;
+	desc_737[13].body_index = (BODY_INDEX) (12);
+	desc_737[13].offset = (BODY_INDEX) (-1);
+	desc_737[13].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[13].gen_type = NULL;
+	desc_737[14].body_index = (BODY_INDEX) (13);
+	desc_737[14].offset = (BODY_INDEX) (-1);
+	desc_737[14].type = (EIF_TYPE_INDEX) (0);
+	desc_737[14].gen_type =  gen_type3_737;
+	desc_737[15].body_index = (BODY_INDEX) (14);
+	desc_737[15].offset = (BODY_INDEX) (-1);
+	desc_737[15].type = (EIF_TYPE_INDEX) (0);
+	desc_737[15].gen_type =  gen_type4_737;
+	desc_737[16].body_index = (BODY_INDEX) (15);
+	desc_737[16].offset = (BODY_INDEX) (-1);
+	desc_737[16].type = (EIF_TYPE_INDEX) (736);
+	desc_737[16].gen_type =  gen_type5_737;
+	desc_737[17].body_index = (BODY_INDEX) (16);
+	desc_737[17].offset = (BODY_INDEX) (-1);
+	desc_737[17].type = (EIF_TYPE_INDEX) (736);
+	desc_737[17].gen_type =  gen_type6_737;
+	desc_737[18].body_index = (BODY_INDEX) (17);
+	desc_737[18].offset = (BODY_INDEX) (-1);
+	desc_737[18].type = (EIF_TYPE_INDEX) (0);
+	desc_737[18].gen_type =  gen_type7_737;
+	desc_737[19].body_index = (BODY_INDEX) (18);
+	desc_737[19].offset = (BODY_INDEX) (-1);
+	desc_737[19].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[19].gen_type = NULL;
+	desc_737[20].body_index = (BODY_INDEX) (19);
+	desc_737[20].offset = (BODY_INDEX) (-1);
+	desc_737[20].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[20].gen_type = NULL;
+	desc_737[21].body_index = (BODY_INDEX) (20);
+	desc_737[21].offset = (BODY_INDEX) (-1);
+	desc_737[21].type = (EIF_TYPE_INDEX) (18);
+	desc_737[21].gen_type =  gen_type8_737;
+	desc_737[22].body_index = (BODY_INDEX) (21);
+	desc_737[22].offset = (BODY_INDEX) (-1);
+	desc_737[22].type = (EIF_TYPE_INDEX) (257);
+	desc_737[22].gen_type =  gen_type9_737;
+	desc_737[23].body_index = (BODY_INDEX) (22);
+	desc_737[23].offset = (BODY_INDEX) (-1);
+	desc_737[23].type = (EIF_TYPE_INDEX) (257);
+	desc_737[23].gen_type =  gen_type10_737;
+	desc_737[24].body_index = (BODY_INDEX) (23);
+	desc_737[24].offset = (BODY_INDEX) (-1);
+	desc_737[24].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[24].gen_type = NULL;
+	desc_737[25].body_index = (BODY_INDEX) (24);
+	desc_737[25].offset = (BODY_INDEX) (-1);
+	desc_737[25].type = (EIF_TYPE_INDEX) (38);
+	desc_737[25].gen_type =  gen_type11_737;
+	desc_737[26].body_index = (BODY_INDEX) (25);
+	desc_737[26].offset = (BODY_INDEX) (-1);
+	desc_737[26].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[26].gen_type = NULL;
+	desc_737[27].body_index = (BODY_INDEX) (26);
+	desc_737[27].offset = (BODY_INDEX) (-1);
+	desc_737[27].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[27].gen_type = NULL;
+	desc_737[28].body_index = (BODY_INDEX) (27);
+	desc_737[28].offset = (BODY_INDEX) (-1);
+	desc_737[28].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[28].gen_type = NULL;
+	desc_737[29].body_index = (BODY_INDEX) (28);
+	desc_737[29].offset = (BODY_INDEX) (-1);
+	desc_737[29].type = (EIF_TYPE_INDEX) (736);
+	desc_737[29].gen_type =  gen_type12_737;
+	desc_737[30].body_index = (BODY_INDEX) (29);
+	desc_737[30].offset = (BODY_INDEX) (-1);
+	desc_737[30].type = (EIF_TYPE_INDEX) (252);
+	desc_737[30].gen_type = NULL;
+	desc_737[31].body_index = (BODY_INDEX) (30);
+	desc_737[31].offset = (BODY_INDEX) (-1);
+	desc_737[31].type = (EIF_TYPE_INDEX) (736);
+	desc_737[31].gen_type =  gen_type13_737;
+	desc_737[32].body_index = (BODY_INDEX) (-1);
+	desc_737[32].offset = (BODY_INDEX) (-1);
+	desc_737[32].type = (EIF_TYPE_INDEX) (225);
+	desc_737[32].gen_type = NULL;
+	desc_737[33].body_index = (BODY_INDEX) (-1);
+	desc_737[33].offset = (BODY_INDEX) (-1);
+	desc_737[33].type = (EIF_TYPE_INDEX) (225);
+	desc_737[33].gen_type = NULL;
+	desc_737[34].body_index = (BODY_INDEX) (2136);
+	desc_737[34].offset = (BODY_INDEX) (-1);
+	desc_737[34].type = (EIF_TYPE_INDEX) (225);
+	desc_737[34].gen_type = NULL;
+	desc_737[35].body_index = (BODY_INDEX) (2137);
+	desc_737[35].offset = (BODY_INDEX) (0);
+	desc_737[35].type = (EIF_TYPE_INDEX) (225);
+	desc_737[35].gen_type = NULL;
+	desc_737[36].body_index = (BODY_INDEX) (2138);
+	desc_737[36].offset = (BODY_INDEX) (-1);
+	desc_737[36].type = (EIF_TYPE_INDEX) (225);
+	desc_737[36].gen_type = NULL;
+	desc_737[37].body_index = (BODY_INDEX) (2139);
+	desc_737[37].offset = (BODY_INDEX) (-1);
+	desc_737[37].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[37].gen_type = NULL;
+	desc_737[38].body_index = (BODY_INDEX) (2140);
+	desc_737[38].offset = (BODY_INDEX) (-1);
+	desc_737[38].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[38].gen_type = NULL;
+	desc_737[39].body_index = (BODY_INDEX) (-1);
+	desc_737[39].offset = (BODY_INDEX) (-1);
+	desc_737[39].type = (EIF_TYPE_INDEX) (719);
+	desc_737[39].gen_type =  gen_type14_737;
+	desc_737[40].body_index = (BODY_INDEX) (-1);
+	desc_737[40].offset = (BODY_INDEX) (-1);
+	desc_737[40].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[40].gen_type =  gen_type15_737;
+	desc_737[41].body_index = (BODY_INDEX) (-1);
+	desc_737[41].offset = (BODY_INDEX) (-1);
+	desc_737[41].type = (EIF_TYPE_INDEX) (225);
+	desc_737[41].gen_type = NULL;
+	desc_737[42].body_index = (BODY_INDEX) (-1);
+	desc_737[42].offset = (BODY_INDEX) (-1);
+	desc_737[42].type = (EIF_TYPE_INDEX) (225);
+	desc_737[42].gen_type = NULL;
+	desc_737[43].body_index = (BODY_INDEX) (2189);
+	desc_737[43].offset = (BODY_INDEX) (-1);
+	desc_737[43].type = (EIF_TYPE_INDEX) (225);
+	desc_737[43].gen_type = NULL;
+	desc_737[44].body_index = (BODY_INDEX) (2215);
+	desc_737[44].offset = (BODY_INDEX) (-1);
+	desc_737[44].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[44].gen_type = NULL;
+	desc_737[45].body_index = (BODY_INDEX) (-1);
+	desc_737[45].offset = (BODY_INDEX) (-1);
+	desc_737[45].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[45].gen_type = NULL;
+	desc_737[46].body_index = (BODY_INDEX) (2190);
+	desc_737[46].offset = (BODY_INDEX) (-1);
+	desc_737[46].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[46].gen_type = NULL;
+	desc_737[47].body_index = (BODY_INDEX) (-1);
+	desc_737[47].offset = (BODY_INDEX) (-1);
+	desc_737[47].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[47].gen_type = NULL;
+	desc_737[48].body_index = (BODY_INDEX) (2191);
+	desc_737[48].offset = (BODY_INDEX) (-1);
+	desc_737[48].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[48].gen_type = NULL;
+	desc_737[49].body_index = (BODY_INDEX) (-1);
+	desc_737[49].offset = (BODY_INDEX) (-1);
+	desc_737[49].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[49].gen_type = NULL;
+	desc_737[50].body_index = (BODY_INDEX) (-1);
+	desc_737[50].offset = (BODY_INDEX) (-1);
+	desc_737[50].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[50].gen_type =  gen_type16_737;
+	desc_737[51].body_index = (BODY_INDEX) (-1);
+	desc_737[51].offset = (BODY_INDEX) (-1);
+	desc_737[51].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[51].gen_type =  gen_type17_737;
+	desc_737[52].body_index = (BODY_INDEX) (-1);
+	desc_737[52].offset = (BODY_INDEX) (-1);
+	desc_737[52].type = (EIF_TYPE_INDEX) (225);
+	desc_737[52].gen_type = NULL;
+	desc_737[53].body_index = (BODY_INDEX) (-1);
+	desc_737[53].offset = (BODY_INDEX) (-1);
+	desc_737[53].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[53].gen_type = NULL;
+	desc_737[54].body_index = (BODY_INDEX) (-1);
+	desc_737[54].offset = (BODY_INDEX) (-1);
+	desc_737[54].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[54].gen_type = NULL;
+	desc_737[55].body_index = (BODY_INDEX) (-1);
+	desc_737[55].offset = (BODY_INDEX) (-1);
+	desc_737[55].type = (EIF_TYPE_INDEX) (-1);
+	desc_737[55].gen_type =  gen_type18_737;
+	desc_737[56].body_index = (BODY_INDEX) (-1);
+	desc_737[56].offset = (BODY_INDEX) (-1);
+	desc_737[56].type = (EIF_TYPE_INDEX) (246);
+	desc_737[56].gen_type = NULL;
+}
+
+extern void Init737(void);
+void Init737(void)
+{
+	if (desc_fill != 0)
+		build_desc_737();
+	IDSC(desc_737, 0, 736);
+	IDSC(desc_737 + 1, 1, 736);
+	IDSC(desc_737 + 32, 84, 736);
+	IDSC(desc_737 + 41, 317, 736);
+	IDSC(desc_737 + 50, 211, 736);
+	IDSC(desc_737 + 56, 262, 736);
+}
+
+
+#ifdef __cplusplus
+}
+#endif
